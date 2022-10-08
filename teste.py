@@ -27,3 +27,8 @@ def mult():
     y = int(input("Insira numero 2: "))
     return x*y
 print (mult())
+
+print ("\n")
+
+(open("test", "w")).write("Esse eh o meu arquivo")
+print ((open("test.txt")).read())
