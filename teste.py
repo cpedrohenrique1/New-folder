@@ -13,7 +13,7 @@ nome1 = "Pedro"
 nome2 = "Noelita"
 soma = nome1 + " " + nome2 + "\n"
 print (len(soma))
-print (nome1[0:3])
+print (soma[0:5])
 print (soma[4:9])
 print (soma.upper())
 print (soma.strip())
@@ -31,4 +31,4 @@ print (mult())
 print ("\n")
 
 (open("test", "w")).write("Esse eh o meu arquivo")
-print ((open("test.txt")).read())
+print ((open("test")).read())
